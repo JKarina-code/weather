@@ -55,12 +55,12 @@ function showWeather(data) {
 
   const pShowTemp_min = document.createElement("p");
   pShowTemp_min.classList.add(".pShowTemp", "text-white", "text-3xl");
-  pShowTemp_min.innerHTML = `Minimal temperature: ${temp_min} &#8451`;
+  pShowTemp_min.innerHTML = `Minimal temperature: ${temp_min} K`;
 
   //temp_max
   const pShowTemp_max = document.createElement("p");
   pShowTemp_max.classList.add(".pShowTemp", "text-white", "text-3xl");
-  pShowTemp_max.innerHTML = `Maximum temperature: ${temp_max} &#8451`;
+  pShowTemp_max.innerHTML = `Maximum temperature: ${temp_max} K`;
 
   const resultDiv = document.createElement("div");
   resultDiv.classList.add("text-center", "text-white");
